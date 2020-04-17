@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+class Book{
+public:
+    string title;
+    string author;
+    int pages;
+    int isbn;
+    Book(string name)
+    {
+    cout<<name<<endl;
+    }
+
+};
+
+int main()
+{
+Book book1("Data structure");
+book1.author = "Sanjay ";
+book1.pages = 980;
+book1.title = "Data Structure";
+book1.isbn = 895623347;
+
+
+Book book2("Binary Tree");
+book2.author = "Mishra ";
+book2.pages = 789;
+book2.title = "Binary tree";
+book2.isbn = 9000593335;
+
+return 0;
+}

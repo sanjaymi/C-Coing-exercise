@@ -1,0 +1,21 @@
+
+using namespace std;
+double myfunction(double num)
+    {
+        {
+    return num=num*num*num;
+
+}
+    }
+
+
+int main()
+{
+    int cube;
+    cout<<"Enter Your Number for cubing :"<<endl;
+    cin>>cube;
+    double answer=myfunction(cube);
+    cout<<"your cube is:"<<answer<<endl;
+    return 0;
+}
+

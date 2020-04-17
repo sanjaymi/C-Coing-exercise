@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+void myfunction(string name,int age,double height)
+
+{
+    cout<<"hello "<<name<<",your age is:"<<age<<"and height is "<<height<<endl;
+}
+int main()
+{
+
+myfunction("sanjay",25,56.36);
+myfunction("Mishra",25,56.36);
+myfunction("Laximikanta",25,56.36);
+    return 0;
+}

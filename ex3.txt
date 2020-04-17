@@ -1,0 +1,58 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+    bool ismale=false;
+    bool istall=true;
+    if(ismale && istall){
+        cout<<"you are a tall male";
+    }
+    else if(ismale && !istall){
+        cout<<" You are short male ";
+    }
+    else if(!ismale && istall)
+
+        cout<<"You are short and not male";
+    else{
+        cout<<"you are not male not tall";
+    }
+
+    return 0;
+}
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int maxofnum(int num1,int num2,int num3)
+{
+    int result;
+    if(num1>=num2 && num1>=num3){
+        result=num1;
+    }
+    else if(num2>num1&&num2>num3){
+        result=num2;
+    }
+    else {
+        result=num3;
+    }
+return result;
+
+
+}
+
+int main()
+{int a,b,c;
+cout<<"Enter the three numbers for comparison:"<<endl;
+ cin>>a,b,c;
+ cout<<maxofnum(15,16,56);
+return 0;
+}
+
+
+

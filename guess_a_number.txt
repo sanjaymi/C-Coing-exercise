@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int secretNum=7;
+    int guess,guesscount=0;
+    while(guesscount<=2 &&secretNum!=guess){
+        cout<<"Enter The Guess: "<<endl;
+        cin>>guess;
+        guesscount++;
+    }
+    if(secretNum==guess){
+    cout<<"You win"<<endl;}
+    else{
+            cout<<"You have used all your chances and you lost"<<endl;}
+return 0;
+}

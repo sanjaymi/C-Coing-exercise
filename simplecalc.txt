@@ -1,0 +1,69 @@
+#include <iostream>
+using namespace std;
+
+
+int add(int a,int b){
+int result;
+return result=a+b;
+}
+
+
+int sub(int a,int b)
+{
+int result;
+if(a>b)  {
+    result=a-b;}
+else
+    {result=b-a;}
+return result;
+}
+
+
+
+int mul(int a,int b){
+int result;
+return result=a*b;}
+
+
+int divi(int a,int b)
+{int result;
+return result=a*b;
+}
+
+    int main()
+{   int choice;
+    int a,b;
+    cout<<"What do you to want to calculate 1 for addition,2 for subraction, 3 for multiplixation 4 for division"<<endl;
+    cin>>choice;
+while(choice>=1 && choice<4)
+{
+    cout<<"what are your 1st  number"<<endl;
+    cin>>a;
+    cout<<"what are your 1st  number"<<endl;
+    cin>>b;
+
+
+    switch(choice)
+    { case 1:
+
+        cout<<add(a,b);
+        break;
+  case 2:
+
+    cout<<sub(a,b);
+    break;
+  case 3:
+
+    cout<<mul(a,b);
+    break;
+  case 4:
+
+    cout<<divi(a,b);
+    break;
+
+    }
+break;
+}
+
+return 0;
+}

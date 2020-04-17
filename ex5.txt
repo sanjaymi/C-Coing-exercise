@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+class Book{
+public:
+    string title;// template declaration;
+    string author;//template declaration;
+    int pages;
+    int isbn;
+    /* Constructor declaration*/
+    Book(string atitle,string a,int apages,int aisbn)
+    {
+    title=atitle;
+    author=a;
+    pages=apages;
+    isbn=aisbn;
+    }
+
+};
+
+int main()
+{
+Book book1("Data structure ADCFC","sanjay",980,895623347);
+
+
+
+Book book2("Binary Tree","Mishra",789,900059335);
+book1.title= "Sanjay";
+book2.author="Ramya";
+cout<<book1.title<<endl;
+cout<<book2.author;
+
+return 0;
+}

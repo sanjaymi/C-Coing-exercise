@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+class Student{
+    public:
+    string name;
+    int year;
+    double gpa;
+
+    Student(string Aname,int Ayear,double Agpa){
+    name=Aname;
+    year=Ayear;
+    gpa=Agpa;
+
+}  bool isfrst()
+    {
+    if(gpa>=3.2){
+
+        return true;
+    }
+    return false;
+
+    }
+
+
+
+
+
+};
+
+
+int main()
+{
+    Student s1("ike",2017,3.4);
+    Student s2("ramesh",2019,3.4);
+
+    cout<<s2.isfrst();
+
+    return 0;
+}

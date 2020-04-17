@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+class Book{
+public:
+    string title;
+    string author;
+    int pages;
+    int isbn;
+
+};
+
+int main()
+{
+Book book1;
+book1.author = "Sanjay ";
+book1.pages = 980;
+book1.title = "Data Structure";
+book1.isbn = 895623347;
+cout<<book1.author;
+return 0;
+}

@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+int compare(int a,int b,int c){
+    int result;
+if(a>b && a>b){
+    result=a;
+}
+else if(b>a && b>c){
+    result=b;
+}
+else{ result=c;}
+
+return result;
+}
+int main()
+{
+    cout<<compare(89,56,78)<<endl;
+}
